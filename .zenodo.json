@@ -1,0 +1,24 @@
+{
+    "creators": [
+        {
+            "name": "Arifuddin, Ahraz"
+        }
+    ],
+    "title": "scry",
+    "description": "<p>This repository is research on how models are trained and how they think. It asks whether changing the language a model learns in, or giving it a denser one, changes how well it reasons.</p><p>Results are to be measured with reasoning benchmarks at equal compute.</p><p>Directed by Ahraz Arifuddin</p><p>Researched and verified by different model families across Gemini, Claude, Grok, OpenAI, and Muse</p>",
+    "upload_type": "software",
+    "license": "MIT",
+    "keywords": [
+        "moissanite-labs",
+        "model-training",
+        "linguistic-relativity"
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/Moissanite-Labs/scry",
+            "relation": "isSupplementTo",
+            "scheme": "url",
+            "resource_type": "software"
+        }
+    ]
+}
