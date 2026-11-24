@@ -1,0 +1,251 @@
+{
+  "part_a_exact_rational_theorems": {
+    "base_T0_exact": "74857859245/2985675497158",
+    "base_dist_V": 12,
+    "base_tail_len": 3,
+    "exact_arithmetic": "100% pure fractions.Fraction (zero floats in all fixed points & thresholds)",
+    "minority_portal_floor_cure": {
+      "alpha": "1/10",
+      "exact_fixed_point_K": 6,
+      "exact_fixed_point_tail_mass": "3826746554584/186604718572375",
+      "exact_fixed_point_zero_residual": true,
+      "extinction_prevented": true,
+      "p": "19/20",
+      "protected_floor_eta": "1/50",
+      "unprotected_tail_mass_alpha_T0": "14971571849/5971350994316"
+    },
+    "theorem_E1_hysteresis_band_p9_10_a1_5": {
+      "K_max": 3,
+      "K_min": 1,
+      "all_Ks_verified_exact_zero_residual": true,
+      "band_width": 3,
+      "boundary_controls": {
+        "K_max_plus_1_not_fixed": true
+      },
+      "cascade_from_q_arrests_at_K_max": 3,
+      "corollary_E1_1_1d_mobius_exact_40_step_match": true,
+      "hysteresis_trap_at_K_min_verified": true,
+      "kl_closed_form_abs_err": 2.7755575615628914e-17
+    },
+    "theorem_E2_four_phases": {
+      "alpha_ext_deterministic_exact": "1230217324304276957933/1859549174878536457875",
+      "alpha_min_tunnel_proof_exact": "1492837748579/1871446481125",
+      "p_e2": "49/50",
+      "phase1_unconditional_extinction": {
+        "alpha": "9/10",
+        "expected_floor_alpha_T0": "134744146641/5971350994316",
+        "extinction_gen": 0,
+        "final_tail_kept": 0,
+        "final_tail_mass_exact": "134744146641/5971350994316",
+        "gen0_tail_kept": 0,
+        "p": "19/20"
+      },
+      "phase2_cascade_induced_extinction": {
+        "alpha": "1230217324304276957933/3719098349757072915750",
+        "expected_floor_alpha_T0": "36800928368639/4437310301955900",
+        "extinction_gen": 1,
+        "final_tail_kept": 0,
+        "final_tail_mass_exact": "36800928368639/4437310301955900",
+        "gen0_tail_kept": 1,
+        "p": "49/50"
+      },
+      "phase3_metastable_hysteresis": {
+        "alpha": "60589829130319290135935321/83041887502550802599323875",
+        "band": {
+          "K_max": 10,
+          "K_min": 9,
+          "all_Ks_verified_exact_zero_residual": true,
+          "band_width": 2,
+          "boundary_controls": {
+            "K_max_plus_1_not_fixed": true,
+            "K_min_minus_1_not_fixed": true
+          }
+        },
+        "expected_floor_alpha_T0": "40587015694099/2218655150977950",
+        "extinction_gen": null,
+        "final_tail_kept": 1,
+        "final_tail_mass_exact": "78015945316599/3711492899556950",
+        "gen0_tail_kept": 1,
+        "p": "49/50"
+      },
+      "phase4_tunnel_proof_survival": {
+        "alpha": "1682142114852/1871446481125",
+        "band": {
+          "K_max": 10,
+          "K_min": 10,
+          "all_Ks_verified_exact_zero_residual": true,
+          "band_width": 1,
+          "boundary_controls": {
+            "K_max_plus_1_not_fixed": true,
+            "K_min_minus_1_not_fixed": true
+          }
+        },
+        "expected_floor_alpha_T0": "841071057426/37320943714475",
+        "extinction_gen": null,
+        "final_tail_kept": 1,
+        "final_tail_mass_exact": "65258592192620691880908884/2770328352020770912296037025",
+        "gen0_tail_kept": 1,
+        "p": "49/50"
+      }
+    }
+  },
+  "part_b_scry_pr1_live_anchor": {
+    "exact_hysteresis_band_p095_a010": {
+      "K_max": 19,
+      "K_min": 9,
+      "live_inside_exact_hysteresis_band": true,
+      "live_scry_pr1_distinct_valid_gen50": 14.4
+    },
+    "exact_p0995_phase_boundary_zipf400": {
+      "alpha_ext_deterministic_float": 0.422839,
+      "alpha_min_tunnel_proof_float": 0.438283,
+      "band_at_alpha_010": {
+        "K_max": 264,
+        "K_min": 255
+      },
+      "band_at_alpha_030": {
+        "K_max": 346,
+        "K_min": 344
+      },
+      "band_at_alpha_043_metastable": {
+        "K_max": 361,
+        "K_min": 360
+      },
+      "band_at_alpha_050_tunnel_proof": {
+        "K_max": 366,
+        "K_min": 365
+      },
+      "exact_deterministic_cascades": {
+        "alpha_010": {
+          "alpha": "1/10",
+          "extinction_gen": 2,
+          "mobius_1d_exact_match_all_gens": true,
+          "support_size_by_gen": [
+            382,
+            367,
+            354,
+            343,
+            333,
+            325,
+            318
+          ],
+          "tail_kept_by_gen": [
+            22,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "alpha_030": {
+          "alpha": "3/10",
+          "extinction_gen": 3,
+          "mobius_1d_exact_match_all_gens": true,
+          "support_size_by_gen": [
+            382,
+            370,
+            362,
+            357,
+            353,
+            351,
+            349
+          ],
+          "tail_kept_by_gen": [
+            22,
+            10,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "alpha_050": {
+          "alpha": "1/2",
+          "extinction_gen": null,
+          "mobius_1d_exact_match_all_gens": true,
+          "support_size_by_gen": [
+            382,
+            374,
+            370,
+            368,
+            367,
+            366,
+            366,
+            366,
+            366
+          ],
+          "tail_kept_by_gen": [
+            22,
+            14,
+            10,
+            8,
+            7,
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      }
+    },
+    "exact_tail_mass_floors_vs_live_scry_pr1": {
+      "alpha_000_formula_addk": 7.999e-06,
+      "alpha_000_live_gen50": 8e-06,
+      "alpha_010_formula_alpha_T0": 0.001141,
+      "alpha_010_live_gen50": 0.00101
+    },
+    "live_bigram_vs_table_quotient_tradeoff": {
+      "bigram_p095_a010_invalid_rate_gen50": 0.161,
+      "bigram_p095_a010_tail_survive_gen50": 5.2,
+      "diagnosis": "Product-quotient factorization (8x10x10 marginals) raises rare-intent marginal support above top-p=0.95 (5.2 vs 0 surviving) at the cost of 16.1% invalid-combo quotient leakage.",
+      "table_p095_a010_tail_survive_gen50": 0.0
+    },
+    "pure_stdlib_mc_replay_M5000": {
+      "cascade_ext_p0995_a010": {
+        "alpha": 0.1,
+        "gens": 20,
+        "mean_distinct_valid_end": 192.33333333333334,
+        "mean_tail_survive_end": 1.6666666666666667,
+        "mean_tail_survive_gen5": 7.0,
+        "p": 0.995
+      },
+      "finite_M_discretization_note": "At p=0.995 and M=5000, (1-p)M=25 tokens are clipped, so rare Poisson count>=2 spikes from alpha*M=500 real draws transiently rescue ~1-2 tail tokens at alpha=0.1 even while total support collapses below K_min=255 and exact M->inf cascade hits 0/40 at gen 2.",
+      "scry_p095_a010": {
+        "alpha": 0.1,
+        "gens": 30,
+        "mean_distinct_valid_end": 16.333333333333332,
+        "mean_tail_survive_end": 0.0,
+        "mean_tail_survive_gen5": 0.0,
+        "p": 0.95
+      },
+      "survival_p0995_a050": {
+        "alpha": 0.5,
+        "gens": 20,
+        "mean_distinct_valid_end": 279.0,
+        "mean_tail_survive_end": 8.0,
+        "mean_tail_survive_gen5": 6.333333333333333,
+        "p": 0.995
+      }
+    },
+    "upstream_toy_py_sha256": "f1dffb494726e538b42254753bf69b6ecdc4cb4badddf5cfbde2856ae3b1b27b",
+    "zipf_V400_T0_exact_float": 0.011408
+  },
+  "probe": "probe_s4_scry_topp_extinction",
+  "r3_negative_controls": {
+    "all_r3_rejected": true,
+    "exceptions": {
+      "alpha_gt_1": "ValueError",
+      "bad_sum_dist": "ValueError",
+      "exact_frac_bool": "TypeError",
+      "exact_frac_float": "TypeError",
+      "non_pos_dist": "ValueError",
+      "non_strict_dec": "ValueError",
+      "top_p_gt_1": "ValueError",
+      "top_p_zero": "ValueError"
+    }
+  },
+  "target_upstream": "Moissanite-Labs/scry PR #1 (studies/01-collapse-toy/toy.py)"
+}
