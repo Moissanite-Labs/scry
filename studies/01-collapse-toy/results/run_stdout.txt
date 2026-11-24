@@ -1,0 +1,6 @@
+wrote log_bigram.jsonl
+
+real	1m9.207s
+user	1m8.879s
+sys	0m0.036s
+wrote log_table.jsonl
